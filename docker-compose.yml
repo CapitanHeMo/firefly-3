@@ -10,8 +10,6 @@ services:
       - firefly_iii_upload:/var/www/html/storage/upload
     networks:
       - firefly_iii
-    ports:
-      - 80:8080
     depends_on:
       - db
   db:
